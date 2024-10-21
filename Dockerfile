@@ -6,7 +6,7 @@ WORKDIR /app
 COPY . .
 
 # Pass the API base URL as a build argument
-ARG API_BASE_URL=/api/
+ARG API_BASE_URL=/cube10-pensil-api.darkube.app/
 
 RUN flutter pub get
 
